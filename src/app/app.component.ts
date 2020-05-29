@@ -25,10 +25,10 @@ export class AppComponent {
   RAZORPAY_OPTIONS = {
     "key": "rzp_test_WMHWnR6EYJOqTX",
     "amount": "1",
-    "name": "Novopay",
+    "name": "Blynkspeak",
     "order_id": "",
     "description": "Load Wallet",
-    "image": "https://livestatic.novopay.in/resources/img/nodeapp/img/Logo_NP.jpg",
+    "image": "https://www.blynkspeak.com/assets/images/logo-122x71.png",
     "prefill": {
       "name": "sdad",
       "email": "test@test.com",
