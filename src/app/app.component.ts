@@ -32,8 +32,8 @@ export class AppComponent {
     "prefill": {
       "name": "sdad",
       "email": "test@test.com",
-      "contact": "sdfs",
-      "method": "sdfsf"
+      "contact": "+919535461483",
+      "method": "sdfsf",
     },
     "modal": {},
     "theme": {
@@ -47,7 +47,6 @@ export class AppComponent {
     // binding this object to both success and dismiss handler
     this.RAZORPAY_OPTIONS['handler'] = this.razorPaySuccessHandler.bind(this);
 
-    // this.showPopup();
 
     let razorpay = new Razorpay(this.RAZORPAY_OPTIONS)
     razorpay.open();
