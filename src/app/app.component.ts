@@ -24,7 +24,7 @@ export class AppComponent {
 
   RAZORPAY_OPTIONS = {
     "key": "rzp_test_WMHWnR6EYJOqTX",
-    "amount": "1",
+    "amount": "",
     "name": "Blynkspeak",
     "order_id": "",
     "description": "Load Wallet",
@@ -42,7 +42,7 @@ export class AppComponent {
   };
 
   public proceed() {
-    this.RAZORPAY_OPTIONS.amount = 1 + '00';
+    //this.RAZORPAY_OPTIONS.amount = 1 + '00';
 
     // binding this object to both success and dismiss handler
     this.RAZORPAY_OPTIONS['handler'] = this.razorPaySuccessHandler.bind(this);
