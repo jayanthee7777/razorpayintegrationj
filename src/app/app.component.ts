@@ -54,7 +54,7 @@ export class AppComponent {
 
   public razorPaySuccessHandler(response) {
     console.log(response);
-    this.razorpayResponse = `Razorpay Response`;
+    this.razorpayResponse = `Razorpay Response`, response;
     this.showModal = true;
     this.cd.detectChanges()
     document.getElementById('razorpay-response').style.display = 'block';
